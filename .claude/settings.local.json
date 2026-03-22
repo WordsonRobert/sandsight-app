@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(///wsl.localhost/Ubuntu/home/w22linux/sandsight-app/**)",
+      "Bash(mkdir -p ~/.claude)",
+      "Bash(echo $?)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(git config:*)",
+      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" status)",
+      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" log --oneline -5)",
+      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" diff app.json package.json)"
+    ]
+  }
+}

@@ -8,7 +8,11 @@
       "Bash(git config:*)",
       "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" status)",
       "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" log --oneline -5)",
-      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" diff app.json package.json)"
+      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" diff app.json package.json)",
+      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" remote -v)",
+      "Bash(git -C \"//wsl.localhost/Ubuntu/home/w22linux/sandsight-app\" branch -vv)",
+      "Read(///wsl.localhost/Ubuntu/home/w22linux/**)",
+      "Bash(gh pr:*)"
     ]
   }
 }
